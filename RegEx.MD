@@ -32,7 +32,7 @@ This reference sheet has been created to provide a quick and easy lookup for Reg
 ```/[^a-c]/``` = match anything that is NOT a, b, or c<br>
 
 ## Capturing Groups
-```/^(\+447|00447|07)\d{9}$/``` = find only strings that begin with +447, 00447, or 07
+/^(\+447|00447|07)\d{9}$/ = find only strings that begin with +447, 00447, or 07
 
 ## Quantifiers
 ```/bo*/``` matches "booo" in a "Ghost boooed" and "b" in "bird song" but nothing in "goat herd", match 0 or more times<br>
