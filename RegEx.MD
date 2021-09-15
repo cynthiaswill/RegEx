@@ -51,6 +51,13 @@ This reference sheet has been created to provide a quick and easy lookup for Reg
 
 ## RegExp JavaScript Test Methods
 
+.exec() = tests for string, returns first match
+.test() = tests for match in string, returns true : false
+.match() = retrieves the result of matching string against regex
+.matchAll() = retrieves all results of matching strings against regex
+.search() = searches for a match between regex and string
+str.replace(regex, 'wordUsedToReplace') = replace first occurrence in string
+str.replaceAll(regex, 'wordUsedToReplace') = replace all occurences in string
 
 ## Use Cases
 ```const validateCode = code => {
