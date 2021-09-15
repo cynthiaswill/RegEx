@@ -60,32 +60,34 @@ This reference sheet has been created to provide a quick and easy lookup for Reg
 ```str.replaceAll(regex, 'wordUsedToReplace')``` = replace all occurences in string<br>
 
 ## Use Cases
-```const validateCode = code => {
+```
+const validateCode = code => {
   return /^(1|2|3)/g.test(code);
-}```
-
+}
+```
 Does the string begin with 1, 2, or 3? Returns true : false
-
-```String.prototype. = function() {
+```
+String.prototype. = function() {
   return /^[a-z]$/i.test(this);
-}```
-
+}
+```
 Does the string begin and end with any alphabet character? Returns true : false
-
-```const validateUsr = username => {
+```
+const validateUsr = username => {
   return /^[a-z0-9_]{4,16}$/.test(username);
-}```
-
+}
+```
 Does the username contain begin and end with lowercase a-z, digits, an underscore, and is the length between 4 & 16?
-
-```const lowercaseCount = str => {
+```
+const lowercaseCount = str => {
   return (str.match(/[a-z]/g) || '').length;
-}```
-
+}
+```
 Count all lowercase a-z in the string then return the length
 
-```const hyphenate = words => {
+```
+const hyphenate = words => {
   return words.replace(/ /g, '-');
 }
-
+```
 Replace any white space with a hyphen
