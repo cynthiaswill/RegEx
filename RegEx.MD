@@ -40,15 +40,6 @@ This reference sheet has been created to provide a quick and easy lookup for Reg
 ```/e?le?/``` matches "el" in "angel" and the "le" in "angle", match 0 or 1 times<br>
 ```/WordLength{4, 16}/``` = return a word that a min length of 4 upto 16<br>
 
-## Capturing Groups
-```/^(+447|00447|07)\d{9}$/``` = find only strings that begin with +447, 00447, or 07
-
-## Quantifiers
-/bo*/ matches "booo" in a "Ghost boooed" and "b" in "bird song" but nothing in "goat herd", match 0 or more times
-/a+/ matches a in "candy" and "caaaaandy", match 1 or more times
-
-```/WordLength{4, 16}/``` = return a word that a min length of 4 upto 16<br>
-
 ## RegExp JavaScript Test Methods
 
 ```.exec()``` = tests for string, returns first match<br>
